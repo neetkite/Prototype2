@@ -1,0 +1,820 @@
+Unity Editor version:    2020.3.30f1 (1fb1bf06830e)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.0.1 (Build 21A559)
+Darwin version:          21.1.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        65536 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/mymac/Desktop/DEV/Unity/Prototype2
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55288
+Successfully changed project path to: /Users/mymac/Desktop/DEV/Unity/Prototype2
+/Users/mymac/Desktop/DEV/Unity/Prototype2
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 28.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/mymac/Desktop/DEV/Unity/Prototype2/Assets
+GfxDevice: creating device client; threaded=0
+2022-03-02 16:12:14.212 Unity[6449:256270] iMac preferred device: AMD Radeon Pro Vega 64 (high power)
+2022-03-02 16:12:14.212 Unity[6449:256270] Metal devices available: 1
+2022-03-02 16:12:14.212 Unity[6449:256270] 0: AMD Radeon Pro Vega 64 (high power)
+2022-03-02 16:12:14.213 Unity[6449:256270] Using device AMD Radeon Pro Vega 64 (high power)
+Initializing Metal device caps: AMD Radeon Pro Vega 64
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56449
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000647 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 42.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.630 seconds
+Domain Reload Profiling:
+	ReloadAssembly (631ms)
+		BeginReloadAssembly (45ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (519ms)
+			LoadAssemblies (45ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (173ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (224ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (42ms)
+				BeforeProcessingInitializeOnLoad (19ms)
+				ProcessInitializeOnLoadAttributes (125ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001672 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.297 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1298ms)
+		BeginReloadAssembly (185ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (1009ms)
+			LoadAssemblies (117ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (417ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (290ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (193ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.002390 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.002966 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Initializing Unity extensions:
+2022-03-02 16:12:17.057 Unity[6449:256270] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001e745b0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-03-02 16:12:17.062 Unity[6449:256270] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001e9a920 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1503 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 209.3 MB.
+System memory in use after: 208.4 MB.
+
+Unloading 77 unused Assets to reduce memory usage. Loaded Objects now: 1977.
+Total: 3.433906 ms (FindLiveObjects: 0.169029 ms CreateObjectMapping: 0.038781 ms MarkObjects: 2.655519 ms  DeleteObjects: 0.569950 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/Prototype 2.unity
+  artifactKey: Guid(f0196d95ff9244ffaa65879ba7824fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prototype 2.unity using Guid(f0196d95ff9244ffaa65879ba7824fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009193 seconds  code(4) message(Build asset version error: assets/scenes/prototype 2.unity in SourceAssetDB has modification time of '2019-06-21T18:24:06Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/scenes/prototype 2.unity in SourceAssetDB has modification time of '2019-06-21T18:24:06Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 7.577846 seconds.
+  path: Assets/Course Library/Humans
+  artifactKey: Guid(f09165a6113c3484f84f5d06d40147ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Humans using Guid(f09165a6113c3484f84f5d06d40147ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000199 seconds  code(4) message(Build asset version error: assets/course library/humans.meta in SourceAssetDB has modification time of '2019-04-05T00:26:39Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/humans.meta in SourceAssetDB has modification time of '2019-04-05T00:26:39Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 1.104732 seconds.
+  path: Assets/Course Library/Humans/SimpleFarmer_Man_01_Black.prefab
+  artifactKey: Guid(f8abbdd178867d2419ba9feb6ff2cba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Humans/SimpleFarmer_Man_01_Black.prefab using Guid(f8abbdd178867d2419ba9feb6ff2cba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.874452 seconds  code(4) message(Build asset version error: assets/course library/humans/simplefarmer_man_01_black.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:48Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/humans/simplefarmer_man_01_black.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:48Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Course Library/Humans/SimpleFarmer_Man_02_Brown.prefab
+  artifactKey: Guid(814f4326a50812947b2469896d89a215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Humans/SimpleFarmer_Man_02_Brown.prefab using Guid(814f4326a50812947b2469896d89a215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.024257 seconds  code(4) message(Build asset version error: assets/course library/humans/simplefarmer_man_02_brown.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:49Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/humans/simplefarmer_man_02_brown.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:49Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Course Library/Humans/SimpleFarmer_Man_01_Brown.prefab
+  artifactKey: Guid(6f52b946693e54048af74f5cd6ba49f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Humans/SimpleFarmer_Man_01_Brown.prefab using Guid(6f52b946693e54048af74f5cd6ba49f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.023232 seconds  code(4) message(Build asset version error: assets/course library/humans/simplefarmer_man_01_brown.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:49Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/humans/simplefarmer_man_01_brown.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:49Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Course Library/Humans/SimpleFarmer_Woman_02_Brown.prefab
+  artifactKey: Guid(f3f69bcf5a1514c458ed5c9b96f28e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Humans/SimpleFarmer_Woman_02_Brown.prefab using Guid(f3f69bcf5a1514c458ed5c9b96f28e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.023110 seconds  code(4) message(Build asset version error: assets/course library/humans/simplefarmer_woman_02_brown.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:52Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/humans/simplefarmer_woman_02_brown.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:52Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Course Library/Humans/SimpleFarmer_Woman_02_White.prefab
+  artifactKey: Guid(3cf7f489270aac84fb12901330960a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Humans/SimpleFarmer_Woman_02_White.prefab using Guid(3cf7f489270aac84fb12901330960a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.022522 seconds  code(4) message(Build asset version error: assets/course library/humans/simplefarmer_woman_02_white.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:50Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/humans/simplefarmer_woman_02_white.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:50Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Course Library/Humans/SimpleFarmer_Man_02_Black.prefab
+  artifactKey: Guid(fc01a3bb589cebc4aa10892db165243b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Humans/SimpleFarmer_Man_02_Black.prefab using Guid(fc01a3bb589cebc4aa10892db165243b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.026235 seconds  code(4) message(Build asset version error: assets/course library/humans/simplefarmer_man_02_black.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:50Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/humans/simplefarmer_man_02_black.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:50Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Course Library/Humans/SimpleFarmer_Woman_01_Black.prefab
+  artifactKey: Guid(0e1316a3e46fdb349b6ff648610a1d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Humans/SimpleFarmer_Woman_01_Black.prefab using Guid(0e1316a3e46fdb349b6ff648610a1d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.022708 seconds  code(4) message(Build asset version error: assets/course library/humans/simplefarmer_woman_01_black.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:48Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/humans/simplefarmer_woman_01_black.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:48Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Course Library/Humans/SimpleFarmer_Woman_01_Brown.prefab
+  artifactKey: Guid(610afbb40c4385d42aa33adfe3531f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Humans/SimpleFarmer_Woman_01_Brown.prefab using Guid(610afbb40c4385d42aa33adfe3531f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.022371 seconds  code(4) message(Build asset version error: assets/course library/humans/simplefarmer_woman_01_brown.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:49Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/humans/simplefarmer_woman_01_brown.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:49Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Course Library/Humans/SimpleFarmer_Woman_01_White.prefab
+  artifactKey: Guid(7169122e91e1981469b2b6045ddf7963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Humans/SimpleFarmer_Woman_01_White.prefab using Guid(7169122e91e1981469b2b6045ddf7963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.024434 seconds  code(4) message(Build asset version error: assets/course library/humans/simplefarmer_woman_01_white.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:51Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/humans/simplefarmer_woman_01_white.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:51Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Course Library/Humans/SimpleFarmer_Man_02_White.prefab
+  artifactKey: Guid(7b6675de545141649953fd8adec4561b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Humans/SimpleFarmer_Man_02_White.prefab using Guid(7b6675de545141649953fd8adec4561b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.023133 seconds  code(4) message(Build asset version error: assets/course library/humans/simplefarmer_man_02_white.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:52Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/humans/simplefarmer_man_02_white.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:52Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Course Library/Humans/SimpleFarmer_Man_01_White.prefab
+  artifactKey: Guid(3bd8a450fcb589542a7843ea7bda2ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Humans/SimpleFarmer_Man_01_White.prefab using Guid(3bd8a450fcb589542a7843ea7bda2ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.024742 seconds  code(4) message(Build asset version error: assets/course library/humans/simplefarmer_man_01_white.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:47Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/humans/simplefarmer_man_01_white.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:47Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Course Library/Humans/SimpleFarmer_Woman_02_Black.prefab
+  artifactKey: Guid(2af1fa464b69e4c4cb1a408373c7d971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Humans/SimpleFarmer_Woman_02_Black.prefab using Guid(2af1fa464b69e4c4cb1a408373c7d971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.023429 seconds  code(4) message(Build asset version error: assets/course library/humans/simplefarmer_woman_02_black.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:49Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/humans/simplefarmer_woman_02_black.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:49Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 43.121930 seconds.
+  path: Assets/Course Library/Humans/SimpleFarmer_Man_01_Black.prefab
+  artifactKey: Guid(f8abbdd178867d2419ba9feb6ff2cba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Humans/SimpleFarmer_Man_01_Black.prefab using Guid(f8abbdd178867d2419ba9feb6ff2cba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.023733 seconds  code(4) message(Build asset version error: assets/course library/humans/simplefarmer_man_01_black.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:48Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/humans/simplefarmer_man_01_black.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:48Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Course Library/Humans/SimpleFarmer_Man_02_Brown.prefab
+  artifactKey: Guid(814f4326a50812947b2469896d89a215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Humans/SimpleFarmer_Man_02_Brown.prefab using Guid(814f4326a50812947b2469896d89a215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.025593 seconds  code(4) message(Build asset version error: assets/course library/humans/simplefarmer_man_02_brown.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:49Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/humans/simplefarmer_man_02_brown.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:49Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Course Library/Humans/SimpleFarmer_Man_01_Brown.prefab
+  artifactKey: Guid(6f52b946693e54048af74f5cd6ba49f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Humans/SimpleFarmer_Man_01_Brown.prefab using Guid(6f52b946693e54048af74f5cd6ba49f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.027020 seconds  code(4) message(Build asset version error: assets/course library/humans/simplefarmer_man_01_brown.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:49Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/humans/simplefarmer_man_01_brown.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:49Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Course Library/Humans/SimpleFarmer_Woman_02_Brown.prefab
+  artifactKey: Guid(f3f69bcf5a1514c458ed5c9b96f28e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Humans/SimpleFarmer_Woman_02_Brown.prefab using Guid(f3f69bcf5a1514c458ed5c9b96f28e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.023533 seconds  code(4) message(Build asset version error: assets/course library/humans/simplefarmer_woman_02_brown.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:52Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/humans/simplefarmer_woman_02_brown.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:52Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Course Library/Humans/SimpleFarmer_Woman_02_White.prefab
+  artifactKey: Guid(3cf7f489270aac84fb12901330960a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Humans/SimpleFarmer_Woman_02_White.prefab using Guid(3cf7f489270aac84fb12901330960a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.024334 seconds  code(4) message(Build asset version error: assets/course library/humans/simplefarmer_woman_02_white.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:50Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/humans/simplefarmer_woman_02_white.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:50Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Course Library/Humans/SimpleFarmer_Man_02_Black.prefab
+  artifactKey: Guid(fc01a3bb589cebc4aa10892db165243b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Humans/SimpleFarmer_Man_02_Black.prefab using Guid(fc01a3bb589cebc4aa10892db165243b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.025248 seconds  code(4) message(Build asset version error: assets/course library/humans/simplefarmer_man_02_black.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:50Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/humans/simplefarmer_man_02_black.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:50Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Course Library/Humans/SimpleFarmer_Woman_01_Black.prefab
+  artifactKey: Guid(0e1316a3e46fdb349b6ff648610a1d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Humans/SimpleFarmer_Woman_01_Black.prefab using Guid(0e1316a3e46fdb349b6ff648610a1d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.023080 seconds  code(4) message(Build asset version error: assets/course library/humans/simplefarmer_woman_01_black.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:48Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/humans/simplefarmer_woman_01_black.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:48Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Course Library/Humans/SimpleFarmer_Woman_01_Brown.prefab
+  artifactKey: Guid(610afbb40c4385d42aa33adfe3531f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Humans/SimpleFarmer_Woman_01_Brown.prefab using Guid(610afbb40c4385d42aa33adfe3531f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.025335 seconds  code(4) message(Build asset version error: assets/course library/humans/simplefarmer_woman_01_brown.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:49Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/humans/simplefarmer_woman_01_brown.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:49Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Course Library/Humans/SimpleFarmer_Woman_01_White.prefab
+  artifactKey: Guid(7169122e91e1981469b2b6045ddf7963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Humans/SimpleFarmer_Woman_01_White.prefab using Guid(7169122e91e1981469b2b6045ddf7963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.025447 seconds  code(4) message(Build asset version error: assets/course library/humans/simplefarmer_woman_01_white.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:51Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/humans/simplefarmer_woman_01_white.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:51Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Course Library/Humans/SimpleFarmer_Man_02_White.prefab
+  artifactKey: Guid(7b6675de545141649953fd8adec4561b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Humans/SimpleFarmer_Man_02_White.prefab using Guid(7b6675de545141649953fd8adec4561b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.024609 seconds  code(4) message(Build asset version error: assets/course library/humans/simplefarmer_man_02_white.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:52Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/humans/simplefarmer_man_02_white.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:52Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Course Library/Humans/SimpleFarmer_Man_01_White.prefab
+  artifactKey: Guid(3bd8a450fcb589542a7843ea7bda2ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Humans/SimpleFarmer_Man_01_White.prefab using Guid(3bd8a450fcb589542a7843ea7bda2ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.023731 seconds  code(4) message(Build asset version error: assets/course library/humans/simplefarmer_man_01_white.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:47Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/humans/simplefarmer_man_01_white.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:47Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Course Library/Humans/SimpleFarmer_Woman_02_Black.prefab
+  artifactKey: Guid(2af1fa464b69e4c4cb1a408373c7d971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Humans/SimpleFarmer_Woman_02_Black.prefab using Guid(2af1fa464b69e4c4cb1a408373c7d971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.023596 seconds  code(4) message(Build asset version error: assets/course library/humans/simplefarmer_woman_02_black.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:49Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/humans/simplefarmer_woman_02_black.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:49Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 394.280593 seconds.
+  path: Assets/Course Library/Animals/Dogs
+  artifactKey: Guid(33a2a8fa00602495fa738ee8930568a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Animals/Dogs using Guid(33a2a8fa00602495fa738ee8930568a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000223 seconds  code(4) message(Build asset version error: assets/course library/animals/dogs.meta in SourceAssetDB has modification time of '2019-04-05T00:26:39Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/animals/dogs.meta in SourceAssetDB has modification time of '2019-04-05T00:26:39Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 2.784021 seconds.
+  path: Assets/Course Library/Animals/Dogs/Dog_Beagle_01.prefab
+  artifactKey: Guid(05554c72f25b7364caea91a88803135d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Animals/Dogs/Dog_Beagle_01.prefab using Guid(05554c72f25b7364caea91a88803135d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.228484 seconds  code(4) message(Build asset version error: assets/course library/animals/dogs/dog_beagle_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:48Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/animals/dogs/dog_beagle_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:48Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Course Library/Animals/Dogs/Dog_BullTerrier_01.prefab
+  artifactKey: Guid(09fd058ab758a754d8c7c1b690b4f068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Animals/Dogs/Dog_BullTerrier_01.prefab using Guid(09fd058ab758a754d8c7c1b690b4f068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.036447 seconds  code(4) message(Build asset version error: assets/course library/animals/dogs/dog_bullterrier_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:50Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/animals/dogs/dog_bullterrier_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:50Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Course Library/Animals/Dogs/Dog_Labrador_01.prefab
+  artifactKey: Guid(938147f6ad7eebe4cb99d4a14cb96757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Animals/Dogs/Dog_Labrador_01.prefab using Guid(938147f6ad7eebe4cb99d4a14cb96757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.035211 seconds  code(4) message(Build asset version error: assets/course library/animals/dogs/dog_labrador_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:49Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/animals/dogs/dog_labrador_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:49Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Course Library/Animals/Dogs/Dog_RhodesianRidgeback_01.prefab
+  artifactKey: Guid(957efc93c4488964582c89c0bf939bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Animals/Dogs/Dog_RhodesianRidgeback_01.prefab using Guid(957efc93c4488964582c89c0bf939bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.033663 seconds  code(4) message(Build asset version error: assets/course library/animals/dogs/dog_rhodesianridgeback_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:48Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/animals/dogs/dog_rhodesianridgeback_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:48Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Course Library/Animals/Dogs/Dog_BorderCollie_01.prefab
+  artifactKey: Guid(d3273ee892cdcf749a22b49daf393a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Animals/Dogs/Dog_BorderCollie_01.prefab using Guid(d3273ee892cdcf749a22b49daf393a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.033574 seconds  code(4) message(Build asset version error: assets/course library/animals/dogs/dog_bordercollie_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:50Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/animals/dogs/dog_bordercollie_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:50Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Course Library/Animals/Dogs/Dog_Doberman_01.prefab
+  artifactKey: Guid(2b6e184cdeba888429a079d519a7c8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Animals/Dogs/Dog_Doberman_01.prefab using Guid(2b6e184cdeba888429a079d519a7c8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.034956 seconds  code(4) message(Build asset version error: assets/course library/animals/dogs/dog_doberman_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:51Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/animals/dogs/dog_doberman_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:51Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Course Library/Animals/Dogs/Dog_GermanShepherd_01.prefab
+  artifactKey: Guid(3b3cb28f974c42c4481d72da460937c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Animals/Dogs/Dog_GermanShepherd_01.prefab using Guid(3b3cb28f974c42c4481d72da460937c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.034192 seconds  code(4) message(Build asset version error: assets/course library/animals/dogs/dog_germanshepherd_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:52Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/animals/dogs/dog_germanshepherd_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:52Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Course Library/Animals/Dogs/Dog_BullDog_01.prefab
+  artifactKey: Guid(782ffceb74ed3aa47a2a09261607aeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Animals/Dogs/Dog_BullDog_01.prefab using Guid(782ffceb74ed3aa47a2a09261607aeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.034390 seconds  code(4) message(Build asset version error: assets/course library/animals/dogs/dog_bulldog_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:51Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/animals/dogs/dog_bulldog_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:51Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Course Library/Animals/Dogs/Dog_SaintBernard_01.prefab
+  artifactKey: Guid(7e327461e79cb2a479e055d455c9a2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Animals/Dogs/Dog_SaintBernard_01.prefab using Guid(7e327461e79cb2a479e055d455c9a2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.034151 seconds  code(4) message(Build asset version error: assets/course library/animals/dogs/dog_saintbernard_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:48Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/animals/dogs/dog_saintbernard_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:48Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Course Library/Animals/Dogs/Dog_Pug_01.prefab
+  artifactKey: Guid(c35f3b540532d1747b95a8a2eea9991d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Animals/Dogs/Dog_Pug_01.prefab using Guid(c35f3b540532d1747b95a8a2eea9991d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.033249 seconds  code(4) message(Build asset version error: assets/course library/animals/dogs/dog_pug_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:49Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/animals/dogs/dog_pug_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:49Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 6.871778 seconds.
+  path: Assets/Course Library/Animals/Farm/Animal_Chick.prefab
+  artifactKey: Guid(c7ca0992ba00761469f731111e56b107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Animals/Farm/Animal_Chick.prefab using Guid(c7ca0992ba00761469f731111e56b107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.036914 seconds  code(4) message(Build asset version error: assets/course library/animals/farm/animal_chick.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:48Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/animals/farm/animal_chick.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:48Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Course Library/Animals/Farm/Animal_Cow_Brown.prefab
+  artifactKey: Guid(50f1d192ccb21a24b95a7e4e403a9bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Animals/Farm/Animal_Cow_Brown.prefab using Guid(50f1d192ccb21a24b95a7e4e403a9bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.012479 seconds  code(4) message(Build asset version error: assets/course library/animals/farm/animal_cow_brown.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:48Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/animals/farm/animal_cow_brown.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:48Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Course Library/Animals/Farm/Animal_Rooster_Brown.prefab
+  artifactKey: Guid(3fe800c166ae0d04881a20247bde736d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Animals/Farm/Animal_Rooster_Brown.prefab using Guid(3fe800c166ae0d04881a20247bde736d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.013907 seconds  code(4) message(Build asset version error: assets/course library/animals/farm/animal_rooster_brown.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:48Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/animals/farm/animal_rooster_brown.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:48Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Course Library/Animals/Farm/Animal_Chicken_Brown.prefab
+  artifactKey: Guid(49b874b9460c6754c829d7cb541a99db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Animals/Farm/Animal_Chicken_Brown.prefab using Guid(49b874b9460c6754c829d7cb541a99db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011922 seconds  code(4) message(Build asset version error: assets/course library/animals/farm/animal_chicken_brown.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:50Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/animals/farm/animal_chicken_brown.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:50Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Course Library/Animals/Farm/Animal_Chicken_White.prefab
+  artifactKey: Guid(9bf484c5ec3d3bf43b2034c829f1abbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Animals/Farm/Animal_Chicken_White.prefab using Guid(9bf484c5ec3d3bf43b2034c829f1abbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011325 seconds  code(4) message(Build asset version error: assets/course library/animals/farm/animal_chicken_white.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:49Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/animals/farm/animal_chicken_white.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:49Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Course Library/Animals/Farm/Animal_Cow_White.prefab
+  artifactKey: Guid(85de8c5eef336ad48900b2ac3e7bf65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Animals/Farm/Animal_Cow_White.prefab using Guid(85de8c5eef336ad48900b2ac3e7bf65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.012137 seconds  code(4) message(Build asset version error: assets/course library/animals/farm/animal_cow_white.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:51Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/animals/farm/animal_cow_white.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:51Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Course Library/Animals/Farm/Animal_Horse_Brown.prefab
+  artifactKey: Guid(68a45bf17ac566545b70a13c90a7ee65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Animals/Farm/Animal_Horse_Brown.prefab using Guid(68a45bf17ac566545b70a13c90a7ee65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011873 seconds  code(4) message(Build asset version error: assets/course library/animals/farm/animal_horse_brown.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:48Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/animals/farm/animal_horse_brown.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:48Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Course Library/Animals/Farm/Animal_Horse_Black.prefab
+  artifactKey: Guid(03e4c5418c1e9164bb1955135d815833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Animals/Farm/Animal_Horse_Black.prefab using Guid(03e4c5418c1e9164bb1955135d815833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.043635 seconds  code(4) message(Build asset version error: assets/course library/animals/farm/animal_horse_black.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:47Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/animals/farm/animal_horse_black.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:47Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 2.972171 seconds.
+  path: Assets/Course Library/Animals/Forest/Animal_Doe_01.prefab
+  artifactKey: Guid(06aceaf909fec8f4081af49b1eea892e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Animals/Forest/Animal_Doe_01.prefab using Guid(06aceaf909fec8f4081af49b1eea892e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.014035 seconds  code(4) message(Build asset version error: assets/course library/animals/forest/animal_doe_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:50Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/animals/forest/animal_doe_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:50Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Course Library/Animals/Forest/Animal_Fox_01.prefab
+  artifactKey: Guid(e3245acddde40bf49aa555d6bdc14998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Animals/Forest/Animal_Fox_01.prefab using Guid(e3245acddde40bf49aa555d6bdc14998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.015786 seconds  code(4) message(Build asset version error: assets/course library/animals/forest/animal_fox_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:51Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/animals/forest/animal_fox_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:51Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Course Library/Animals/Forest/Animal_Stag_02.prefab
+  artifactKey: Guid(e2b54f18a442ae84cb37b05e649edfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Animals/Forest/Animal_Stag_02.prefab using Guid(e2b54f18a442ae84cb37b05e649edfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.015601 seconds  code(4) message(Build asset version error: assets/course library/animals/forest/animal_stag_02.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:50Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/animals/forest/animal_stag_02.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:50Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Course Library/Animals/Forest/Animal_Moose_01.prefab
+  artifactKey: Guid(72d1e1ec46e639c47a81658b0d9e230e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Animals/Forest/Animal_Moose_01.prefab using Guid(72d1e1ec46e639c47a81658b0d9e230e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.015039 seconds  code(4) message(Build asset version error: assets/course library/animals/forest/animal_moose_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:51Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/animals/forest/animal_moose_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:51Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Course Library/Animals/Forest/Animal_Moose_02.prefab
+  artifactKey: Guid(02eca77e7e6a2ec41ba4c68f20e26098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Animals/Forest/Animal_Moose_02.prefab using Guid(02eca77e7e6a2ec41ba4c68f20e26098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.013974 seconds  code(4) message(Build asset version error: assets/course library/animals/forest/animal_moose_02.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:51Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/animals/forest/animal_moose_02.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:51Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Course Library/Animals/Forest/Animal_Stag_01.prefab
+  artifactKey: Guid(ff249e9534924c744bdfa6a3d2d1746c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Animals/Forest/Animal_Stag_01.prefab using Guid(ff249e9534924c744bdfa6a3d2d1746c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.013383 seconds  code(4) message(Build asset version error: assets/course library/animals/forest/animal_stag_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:49Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/animals/forest/animal_stag_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:49Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Course Library/Animals/Forest/Animal_Fox_02.prefab
+  artifactKey: Guid(d08ba223a91fb3440afcbed27fafa936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Animals/Forest/Animal_Fox_02.prefab using Guid(d08ba223a91fb3440afcbed27fafa936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.016098 seconds  code(4) message(Build asset version error: assets/course library/animals/forest/animal_fox_02.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:48Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/animals/forest/animal_fox_02.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:48Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Course Library/Animals/Forest/Animal_Doe_02.prefab
+  artifactKey: Guid(2fdf2b8525a6fa54ba867925b16564e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Animals/Forest/Animal_Doe_02.prefab using Guid(2fdf2b8525a6fa54ba867925b16564e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.013584 seconds  code(4) message(Build asset version error: assets/course library/animals/forest/animal_doe_02.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:49Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/animals/forest/animal_doe_02.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:49Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 37.978987 seconds.
+  path: Assets/Course Library/Animals/Forest/Animal_Doe_01.prefab
+  artifactKey: Guid(06aceaf909fec8f4081af49b1eea892e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Animals/Forest/Animal_Doe_01.prefab using Guid(06aceaf909fec8f4081af49b1eea892e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.014949 seconds  code(4) message(Build asset version error: assets/course library/animals/forest/animal_doe_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:50Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/animals/forest/animal_doe_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:50Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Course Library/Animals/Forest/Animal_Fox_01.prefab
+  artifactKey: Guid(e3245acddde40bf49aa555d6bdc14998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Animals/Forest/Animal_Fox_01.prefab using Guid(e3245acddde40bf49aa555d6bdc14998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.017100 seconds  code(4) message(Build asset version error: assets/course library/animals/forest/animal_fox_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:51Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/animals/forest/animal_fox_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:51Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Course Library/Animals/Forest/Animal_Stag_02.prefab
+  artifactKey: Guid(e2b54f18a442ae84cb37b05e649edfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Animals/Forest/Animal_Stag_02.prefab using Guid(e2b54f18a442ae84cb37b05e649edfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.015391 seconds  code(4) message(Build asset version error: assets/course library/animals/forest/animal_stag_02.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:50Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/animals/forest/animal_stag_02.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:50Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Course Library/Animals/Forest/Animal_Moose_01.prefab
+  artifactKey: Guid(72d1e1ec46e639c47a81658b0d9e230e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Animals/Forest/Animal_Moose_01.prefab using Guid(72d1e1ec46e639c47a81658b0d9e230e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.014904 seconds  code(4) message(Build asset version error: assets/course library/animals/forest/animal_moose_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:51Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/animals/forest/animal_moose_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:51Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Course Library/Animals/Forest/Animal_Moose_02.prefab
+  artifactKey: Guid(02eca77e7e6a2ec41ba4c68f20e26098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Animals/Forest/Animal_Moose_02.prefab using Guid(02eca77e7e6a2ec41ba4c68f20e26098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.015705 seconds  code(4) message(Build asset version error: assets/course library/animals/forest/animal_moose_02.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:51Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/animals/forest/animal_moose_02.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:51Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Course Library/Animals/Forest/Animal_Stag_01.prefab
+  artifactKey: Guid(ff249e9534924c744bdfa6a3d2d1746c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Animals/Forest/Animal_Stag_01.prefab using Guid(ff249e9534924c744bdfa6a3d2d1746c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.013092 seconds  code(4) message(Build asset version error: assets/course library/animals/forest/animal_stag_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:49Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/animals/forest/animal_stag_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:49Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Course Library/Animals/Forest/Animal_Fox_02.prefab
+  artifactKey: Guid(d08ba223a91fb3440afcbed27fafa936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Animals/Forest/Animal_Fox_02.prefab using Guid(d08ba223a91fb3440afcbed27fafa936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.014704 seconds  code(4) message(Build asset version error: assets/course library/animals/forest/animal_fox_02.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:48Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/animals/forest/animal_fox_02.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:48Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Course Library/Animals/Forest/Animal_Doe_02.prefab
+  artifactKey: Guid(2fdf2b8525a6fa54ba867925b16564e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Animals/Forest/Animal_Doe_02.prefab using Guid(2fdf2b8525a6fa54ba867925b16564e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.013468 seconds  code(4) message(Build asset version error: assets/course library/animals/forest/animal_doe_02.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:49Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/animals/forest/animal_doe_02.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:49Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 5.027322 seconds.
+  path: Assets/Course Library/Animals/Farm/Animal_Chick.prefab
+  artifactKey: Guid(c7ca0992ba00761469f731111e56b107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Animals/Farm/Animal_Chick.prefab using Guid(c7ca0992ba00761469f731111e56b107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010265 seconds  code(4) message(Build asset version error: assets/course library/animals/farm/animal_chick.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:48Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/animals/farm/animal_chick.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:48Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Course Library/Animals/Farm/Animal_Cow_Brown.prefab
+  artifactKey: Guid(50f1d192ccb21a24b95a7e4e403a9bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Animals/Farm/Animal_Cow_Brown.prefab using Guid(50f1d192ccb21a24b95a7e4e403a9bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.012992 seconds  code(4) message(Build asset version error: assets/course library/animals/farm/animal_cow_brown.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:48Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/animals/farm/animal_cow_brown.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:48Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Course Library/Animals/Farm/Animal_Rooster_Brown.prefab
+  artifactKey: Guid(3fe800c166ae0d04881a20247bde736d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Animals/Farm/Animal_Rooster_Brown.prefab using Guid(3fe800c166ae0d04881a20247bde736d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011530 seconds  code(4) message(Build asset version error: assets/course library/animals/farm/animal_rooster_brown.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:48Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/animals/farm/animal_rooster_brown.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:48Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Course Library/Animals/Farm/Animal_Chicken_Brown.prefab
+  artifactKey: Guid(49b874b9460c6754c829d7cb541a99db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Animals/Farm/Animal_Chicken_Brown.prefab using Guid(49b874b9460c6754c829d7cb541a99db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.012454 seconds  code(4) message(Build asset version error: assets/course library/animals/farm/animal_chicken_brown.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:50Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/animals/farm/animal_chicken_brown.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:50Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Course Library/Animals/Farm/Animal_Chicken_White.prefab
+  artifactKey: Guid(9bf484c5ec3d3bf43b2034c829f1abbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Animals/Farm/Animal_Chicken_White.prefab using Guid(9bf484c5ec3d3bf43b2034c829f1abbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011000 seconds  code(4) message(Build asset version error: assets/course library/animals/farm/animal_chicken_white.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:49Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/animals/farm/animal_chicken_white.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:49Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Course Library/Animals/Farm/Animal_Cow_White.prefab
+  artifactKey: Guid(85de8c5eef336ad48900b2ac3e7bf65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Animals/Farm/Animal_Cow_White.prefab using Guid(85de8c5eef336ad48900b2ac3e7bf65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.012352 seconds  code(4) message(Build asset version error: assets/course library/animals/farm/animal_cow_white.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:51Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/animals/farm/animal_cow_white.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:51Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Course Library/Animals/Farm/Animal_Horse_Brown.prefab
+  artifactKey: Guid(68a45bf17ac566545b70a13c90a7ee65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Animals/Farm/Animal_Horse_Brown.prefab using Guid(68a45bf17ac566545b70a13c90a7ee65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.012774 seconds  code(4) message(Build asset version error: assets/course library/animals/farm/animal_horse_brown.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:48Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/animals/farm/animal_horse_brown.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:48Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Course Library/Animals/Farm/Animal_Horse_Black.prefab
+  artifactKey: Guid(03e4c5418c1e9164bb1955135d815833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Animals/Farm/Animal_Horse_Black.prefab using Guid(03e4c5418c1e9164bb1955135d815833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.013399 seconds  code(4) message(Build asset version error: assets/course library/animals/farm/animal_horse_black.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:47Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/animals/farm/animal_horse_black.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:47Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 1.660924 seconds.
+  path: Assets/Course Library/Food/Food_Banana_01.prefab
+  artifactKey: Guid(84cd279dfc9ea0a4b8564030182915fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Food/Food_Banana_01.prefab using Guid(84cd279dfc9ea0a4b8564030182915fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.084885 seconds  code(4) message(Build asset version error: assets/course library/food/food_banana_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:51Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/food/food_banana_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:51Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Course Library/Food/Food_Cookie_01.prefab
+  artifactKey: Guid(10d25933610222845ad3760a855829c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Food/Food_Cookie_01.prefab using Guid(10d25933610222845ad3760a855829c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008372 seconds  code(4) message(Build asset version error: assets/course library/food/food_cookie_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:48Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/food/food_cookie_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:48Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Course Library/Food/Food_Sandwich_01.prefab
+  artifactKey: Guid(5b10c1fadcedc4347b929c94cb50d5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Food/Food_Sandwich_01.prefab using Guid(5b10c1fadcedc4347b929c94cb50d5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007617 seconds  code(4) message(Build asset version error: assets/course library/food/food_sandwich_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:50Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/food/food_sandwich_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:50Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Course Library/Food/Food_Organic_Carrot.prefab
+  artifactKey: Guid(bd519f706f8c5cf4dad9fed04ab5b64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Food/Food_Organic_Carrot.prefab using Guid(bd519f706f8c5cf4dad9fed04ab5b64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008427 seconds  code(4) message(Build asset version error: assets/course library/food/food_organic_carrot.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:47Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/food/food_organic_carrot.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:47Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Course Library/Food/Food_Organic_Pear_02.prefab
+  artifactKey: Guid(4949a22a2c444b0459d7289aae77be28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Food/Food_Organic_Pear_02.prefab using Guid(4949a22a2c444b0459d7289aae77be28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007349 seconds  code(4) message(Build asset version error: assets/course library/food/food_organic_pear_02.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:50Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/food/food_organic_pear_02.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:50Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Course Library/Food/Food_Organic_Apple_01.prefab
+  artifactKey: Guid(c13306d1f1d9a1a489199ef77f9dba89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Food/Food_Organic_Apple_01.prefab using Guid(c13306d1f1d9a1a489199ef77f9dba89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008953 seconds  code(4) message(Build asset version error: assets/course library/food/food_organic_apple_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:48Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/food/food_organic_apple_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:48Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Course Library/Food/Food_Organic_Apple_03.prefab
+  artifactKey: Guid(c2f4b43f266dc11439efef86830dafb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Food/Food_Organic_Apple_03.prefab using Guid(c2f4b43f266dc11439efef86830dafb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007642 seconds  code(4) message(Build asset version error: assets/course library/food/food_organic_apple_03.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:52Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/food/food_organic_apple_03.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:52Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Course Library/Food/Food_Steak_01.prefab
+  artifactKey: Guid(9f063c5e5835cbd4b8dc54a6c0b45db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Food/Food_Steak_01.prefab using Guid(9f063c5e5835cbd4b8dc54a6c0b45db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007059 seconds  code(4) message(Build asset version error: assets/course library/food/food_steak_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:51Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/food/food_steak_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:51Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Course Library/Food/Food_Bone_01.prefab
+  artifactKey: Guid(1f17d257118ec324ca772c5b2bacbb14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Food/Food_Bone_01.prefab using Guid(1f17d257118ec324ca772c5b2bacbb14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006923 seconds  code(4) message(Build asset version error: assets/course library/food/food_bone_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:49Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/food/food_bone_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:49Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Course Library/Food/Food_EnergyCan_01.prefab
+  artifactKey: Guid(f9125fa89572f1e40bb082978a85b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Food/Food_EnergyCan_01.prefab using Guid(f9125fa89572f1e40bb082978a85b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007316 seconds  code(4) message(Build asset version error: assets/course library/food/food_energycan_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:50Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/food/food_energycan_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:50Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Course Library/Food/Food_Fish_Cooked.prefab
+  artifactKey: Guid(245ebd2bf811d4f45a1d5dcd8c327131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Food/Food_Fish_Cooked.prefab using Guid(245ebd2bf811d4f45a1d5dcd8c327131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007231 seconds  code(4) message(Build asset version error: assets/course library/food/food_fish_cooked.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:50Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/food/food_fish_cooked.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:50Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Course Library/Food/Food_Pizza_01.prefab
+  artifactKey: Guid(06cdf427476835b42837c1ca7f8cdbd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Food/Food_Pizza_01.prefab using Guid(06cdf427476835b42837c1ca7f8cdbd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007561 seconds  code(4) message(Build asset version error: assets/course library/food/food_pizza_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:49Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/food/food_pizza_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:49Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Course Library/Food/Food_Wine_01.prefab
+  artifactKey: Guid(ca03aa5ab3af9f147aa60e7b8d131fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Food/Food_Wine_01.prefab using Guid(ca03aa5ab3af9f147aa60e7b8d131fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007797 seconds  code(4) message(Build asset version error: assets/course library/food/food_wine_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:50Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/food/food_wine_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:50Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 30.441299 seconds.
+  path: Assets/Course Library/Food/Food_Banana_01.prefab
+  artifactKey: Guid(84cd279dfc9ea0a4b8564030182915fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Food/Food_Banana_01.prefab using Guid(84cd279dfc9ea0a4b8564030182915fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010075 seconds  code(4) message(Build asset version error: assets/course library/food/food_banana_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:51Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/food/food_banana_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:51Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Course Library/Food/Food_Cookie_01.prefab
+  artifactKey: Guid(10d25933610222845ad3760a855829c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Food/Food_Cookie_01.prefab using Guid(10d25933610222845ad3760a855829c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007678 seconds  code(4) message(Build asset version error: assets/course library/food/food_cookie_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:48Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/food/food_cookie_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:48Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Course Library/Food/Food_Sandwich_01.prefab
+  artifactKey: Guid(5b10c1fadcedc4347b929c94cb50d5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Food/Food_Sandwich_01.prefab using Guid(5b10c1fadcedc4347b929c94cb50d5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007825 seconds  code(4) message(Build asset version error: assets/course library/food/food_sandwich_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:50Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/food/food_sandwich_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:50Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Course Library/Food/Food_Organic_Carrot.prefab
+  artifactKey: Guid(bd519f706f8c5cf4dad9fed04ab5b64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Food/Food_Organic_Carrot.prefab using Guid(bd519f706f8c5cf4dad9fed04ab5b64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006968 seconds  code(4) message(Build asset version error: assets/course library/food/food_organic_carrot.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:47Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/food/food_organic_carrot.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:47Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Course Library/Food/Food_Organic_Pear_02.prefab
+  artifactKey: Guid(4949a22a2c444b0459d7289aae77be28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Food/Food_Organic_Pear_02.prefab using Guid(4949a22a2c444b0459d7289aae77be28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007054 seconds  code(4) message(Build asset version error: assets/course library/food/food_organic_pear_02.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:50Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/food/food_organic_pear_02.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:50Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Course Library/Food/Food_Organic_Apple_01.prefab
+  artifactKey: Guid(c13306d1f1d9a1a489199ef77f9dba89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Food/Food_Organic_Apple_01.prefab using Guid(c13306d1f1d9a1a489199ef77f9dba89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007434 seconds  code(4) message(Build asset version error: assets/course library/food/food_organic_apple_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:48Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/food/food_organic_apple_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:48Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Course Library/Food/Food_Organic_Apple_03.prefab
+  artifactKey: Guid(c2f4b43f266dc11439efef86830dafb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Food/Food_Organic_Apple_03.prefab using Guid(c2f4b43f266dc11439efef86830dafb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007021 seconds  code(4) message(Build asset version error: assets/course library/food/food_organic_apple_03.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:52Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/food/food_organic_apple_03.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:52Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Course Library/Food/Food_Steak_01.prefab
+  artifactKey: Guid(9f063c5e5835cbd4b8dc54a6c0b45db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Food/Food_Steak_01.prefab using Guid(9f063c5e5835cbd4b8dc54a6c0b45db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007564 seconds  code(4) message(Build asset version error: assets/course library/food/food_steak_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:51Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/food/food_steak_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:51Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Course Library/Food/Food_Bone_01.prefab
+  artifactKey: Guid(1f17d257118ec324ca772c5b2bacbb14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Food/Food_Bone_01.prefab using Guid(1f17d257118ec324ca772c5b2bacbb14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007816 seconds  code(4) message(Build asset version error: assets/course library/food/food_bone_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:49Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/food/food_bone_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:49Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Course Library/Food/Food_EnergyCan_01.prefab
+  artifactKey: Guid(f9125fa89572f1e40bb082978a85b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Food/Food_EnergyCan_01.prefab using Guid(f9125fa89572f1e40bb082978a85b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008421 seconds  code(4) message(Build asset version error: assets/course library/food/food_energycan_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:50Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/food/food_energycan_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:50Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Course Library/Food/Food_Fish_Cooked.prefab
+  artifactKey: Guid(245ebd2bf811d4f45a1d5dcd8c327131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Food/Food_Fish_Cooked.prefab using Guid(245ebd2bf811d4f45a1d5dcd8c327131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007253 seconds  code(4) message(Build asset version error: assets/course library/food/food_fish_cooked.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:50Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/food/food_fish_cooked.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:50Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Course Library/Food/Food_Pizza_01.prefab
+  artifactKey: Guid(06cdf427476835b42837c1ca7f8cdbd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Food/Food_Pizza_01.prefab using Guid(06cdf427476835b42837c1ca7f8cdbd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007290 seconds  code(4) message(Build asset version error: assets/course library/food/food_pizza_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:49Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/food/food_pizza_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:49Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Course Library/Food/Food_Wine_01.prefab
+  artifactKey: Guid(ca03aa5ab3af9f147aa60e7b8d131fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Food/Food_Wine_01.prefab using Guid(ca03aa5ab3af9f147aa60e7b8d131fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008079 seconds  code(4) message(Build asset version error: assets/course library/food/food_wine_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:50Z' while content on disk has modification time of '2022-03-02T09:06:13Z')
+  ERROR: Build asset version error: assets/course library/food/food_wine_01.prefab in SourceAssetDB has modification time of '2019-03-22T15:44:50Z' while content on disk has modification time of '2022-03-02T09:06:13Z'
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
