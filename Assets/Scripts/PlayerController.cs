@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
     private float verticalInput;
     public float speed = 10.0f;
     public GameObject projectilePrefab;
-
+    public Vector3 offset = new Vector3(0 , 2, 0);
     void Start()
     {
         
@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour
         transform.Translate(Vector3.forward * verticalInput * Time.deltaTime * speed);
         transform.Translate(Vector3.right * horizontalInput * Time.deltaTime * speed);
         if(Input.GetKeyDown(KeyCode.Space)){
-            Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
+            Instantiate(projectilePrefab, transform.position + offset, projectilePrefab.transform.rotation);
         }
     }
 
