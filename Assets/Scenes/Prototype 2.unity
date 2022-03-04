@@ -651,6 +651,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 20
   projectilePrefab: {fileID: 6100279481189759831, guid: b87a565b9ba054dd793c2714def13b51, type: 3}
+  offset: {x: 0, y: 2, z: 0}
 --- !u!1 &2137207376
 GameObject:
   m_ObjectHideFlags: 0
@@ -769,7 +770,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2503387758004808343, guid: da1707253aedb4057aad48f0096fc236, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -13.78
+      value: -8.9
       objectReference: {fileID: 0}
     - target: {fileID: 2503387758004808343, guid: da1707253aedb4057aad48f0096fc236, type: 3}
       propertyPath: m_LocalPosition.y
